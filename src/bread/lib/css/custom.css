@@ -1,0 +1,290 @@
+/* Globals */
+
+body {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #40433D;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+code {
+    color: #EE773A;
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.nav-item a:hover {
+    background: #40433D;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.alert {
+    text-align: center;
+}
+
+.modal-dialog {
+    color: #40433D;
+}
+
+
+/* Forms */
+
+.form-control,
+.form-control:focus,
+.input-group-addon {
+    border-color: #E1E1E1;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+
+/* Register Form */
+
+.signup-form {
+    width: 340px;
+    margin: 50px auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.signup-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #0069D9;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+}
+
+.signup-form hr {
+    margin: 0 -30px 20px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signup-form .form-control {
+    min-height: 38px;
+    box-shadow: none !important;
+}
+
+.signup-form .input-group-addon {
+    max-width: 42px;
+    text-align: center;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.signup-form .checkbox-inline {
+    color: #40433D;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #0069D9;
+    border: none;
+    min-width: 140px;
+}
+
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: #0016D9;
+    outline: none;
+}
+
+.signup-form a {
+    color: #0069D9;
+    text-decoration: none;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}
+
+.signup-form form a:hover {
+    text-decoration: underline;
+}
+
+.signup-form .fa {
+    font-size: 21px;
+}
+
+.signup-form .fa-paper-plane {
+    font-size: 18px;
+}
+
+.signup-form .fa-check {
+    color: #FFF;
+    left: 17px;
+    top: 18px;
+    font-size: 7px;
+    position: absolute;
+}
+
+
+/* Login Form */
+
+.login-form {
+    text-align: center;
+    width: 340px;
+    margin: 50px auto;
+}
+
+.login-form form {
+    margin-bottom: 15px;
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.login-form a {
+    color: #0069D9;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form p {
+    text-align: center;
+}
+
+.login-form h2 {
+    color: #FFF;
+    margin: 0 0 15px;
+}
+
+.login-form .checkbox-inline {
+    color: #40433D;
+}
+
+.form-control,
+.btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.btn {
+    background-color: #0069D9;
+    border: #0016D9;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #0016D9;
+    outline: none;
+}
+
+
+/* Guest */
+
+.guest-view {
+    margin-top: 30px;
+    padding: 0em;
+    font-size: large;
+    border-style: solid;
+    border-color: #0069D9;
+    border-radius: 10px;
+}
+
+.guest-view h3 {
+    background-color: #0069D9;
+    text-align: center;
+    font-weight: bold;
+}
+
+.guest-view .lead {
+    color: #0057D9;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+.guest-view p {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.guest-view a {
+    font-weight: bold;
+}
+
+
+/* Profile */
+
+.profile-view {
+    margin-top: 30px;
+    padding: 0em;
+    border-style: solid;
+    border-color: #EE773A;
+    border-radius: 10px;
+}
+
+.profile-view h3 {
+    background-color: #EE773A;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile-view dl {
+    padding: 2em;
+}
+
+.profile-view dt {
+    color: #EE773A;
+}
+
+.profile-img {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/* Contact */
+
+.contact-view {
+    margin-top: 30px;
+    padding: 0em;
+    border-style: solid;
+    border-color: #EE773A;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-view h3 {
+    background-color: #EE773A;
+    font-weight: bold;
+}
+
+.contact-view strong {
+    color: #EE773A;
+}
